@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -9,10 +9,18 @@
     <Authors>Zhiqiang Li(stulzq)</Authors>
     <Description>Clean up Windows remote desktop records.</Description>
     <PackageTags>rdp,registry,clean</PackageTags>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/stulzq/WindowsRemoteDesktopCleanTool</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/stulzq/WindowsRemoteDesktopCleanTool.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
   <ItemGroup>
     <None Include="..\.editorconfig" Link=".editorconfig" />
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
   <ItemGroup>
